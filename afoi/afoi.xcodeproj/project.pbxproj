@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4785FCCE89DEBBCC606225 /* Pods_afoiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 351B4F33A62BE56FA4EA4975 /* Pods_afoiTests.framework */; };
+		6F8F30D5E56614FA2F2BC85F /* Pods_afoi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058950EA71620797838C2838 /* Pods_afoi.framework */; };
+		914FA2721F344FD600D00FBB /* dosing.json in Resources */ = {isa = PBXBuildFile; fileRef = 914FA26F1F344FD600D00FBB /* dosing.json */; };
+		914FA2731F344FD600D00FBB /* topicalisation_template.html in Resources */ = {isa = PBXBuildFile; fileRef = 914FA2701F344FD600D00FBB /* topicalisation_template.html */; };
+		914FA2741F344FD600D00FBB /* topicalisation.css in Resources */ = {isa = PBXBuildFile; fileRef = 914FA2711F344FD600D00FBB /* topicalisation.css */; };
+		914FA2771F34521500D00FBB /* Templating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FA2761F34521500D00FBB /* Templating.swift */; };
+		914FA27B1F3459AC00D00FBB /* doseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FA27A1F3459AC00D00FBB /* doseData.swift */; };
+		914FA27D1F35AFAE00D00FBB /* helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914FA27C1F35AFAE00D00FBB /* helpers.swift */; };
 		91A5D2A11F283A24008C3731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5D2A01F283A24008C3731 /* AppDelegate.swift */; };
 		91A5D2A31F283A24008C3731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5D2A21F283A24008C3731 /* ViewController.swift */; };
 		91A5D2A61F283A24008C3731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A5D2A41F283A24008C3731 /* Main.storyboard */; };
 		91A5D2A81F283A24008C3731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A5D2A71F283A24008C3731 /* Assets.xcassets */; };
 		91A5D2AB1F283A24008C3731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A5D2A91F283A24008C3731 /* LaunchScreen.storyboard */; };
 		91A5D2B61F283A24008C3731 /* afoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A5D2B51F283A24008C3731 /* afoiTests.swift */; };
+		91A5D2C21F28406F008C3731 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91A5D2C11F28406F008C3731 /* Lato-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		058950EA71620797838C2838 /* Pods_afoi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_afoi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		351B4F33A62BE56FA4EA4975 /* Pods_afoiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_afoiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1CC5AC685B02A2482460B9 /* Pods-afoi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-afoi.release.xcconfig"; path = "Pods/Target Support Files/Pods-afoi/Pods-afoi.release.xcconfig"; sourceTree = "<group>"; };
+		7AD9AA6D5A33B16DDCDB73EF /* Pods-afoiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-afoiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-afoiTests/Pods-afoiTests.release.xcconfig"; sourceTree = "<group>"; };
+		914FA26F1F344FD600D00FBB /* dosing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dosing.json; path = afoi/dosing.json; sourceTree = "<group>"; };
+		914FA2701F344FD600D00FBB /* topicalisation_template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = topicalisation_template.html; path = afoi/topicalisation_template.html; sourceTree = "<group>"; };
+		914FA2711F344FD600D00FBB /* topicalisation.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = topicalisation.css; path = afoi/topicalisation.css; sourceTree = "<group>"; };
+		914FA2761F34521500D00FBB /* Templating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Templating.swift; sourceTree = "<group>"; };
+		914FA27A1F3459AC00D00FBB /* doseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doseData.swift; sourceTree = "<group>"; };
+		914FA27C1F35AFAE00D00FBB /* helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helpers.swift; sourceTree = "<group>"; };
 		91A5D29D1F283A24008C3731 /* afoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = afoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A5D2A01F283A24008C3731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91A5D2A21F283A24008C3731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +55,9 @@
 		91A5D2B11F283A24008C3731 /* afoiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afoiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A5D2B51F283A24008C3731 /* afoiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = afoiTests.swift; sourceTree = "<group>"; };
 		91A5D2B71F283A24008C3731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A5D2C11F28406F008C3731 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		DE2818A457DF098065C15210 /* Pods-afoiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-afoiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-afoiTests/Pods-afoiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE762063C4BA6B1BF269EF42 /* Pods-afoi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-afoi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-afoi/Pods-afoi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8F30D5E56614FA2F2BC85F /* Pods_afoi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +73,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4785FCCE89DEBBCC606225 /* Pods_afoiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CDFF9687CFCB151265B8AF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE762063C4BA6B1BF269EF42 /* Pods-afoi.debug.xcconfig */,
+				4C1CC5AC685B02A2482460B9 /* Pods-afoi.release.xcconfig */,
+				DE2818A457DF098065C15210 /* Pods-afoiTests.debug.xcconfig */,
+				7AD9AA6D5A33B16DDCDB73EF /* Pods-afoiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		914FA2751F34507500D00FBB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				914FA26F1F344FD600D00FBB /* dosing.json */,
+				914FA2701F344FD600D00FBB /* topicalisation_template.html */,
+				914FA2711F344FD600D00FBB /* topicalisation.css */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		91A5D2941F283A24008C3731 = {
 			isa = PBXGroup;
 			children = (
+				914FA2751F34507500D00FBB /* resources */,
+				91A5D2C11F28406F008C3731 /* Lato-Black.ttf */,
 				91A5D29F1F283A24008C3731 /* afoi */,
 				91A5D2B41F283A24008C3731 /* afoiTests */,
 				91A5D29E1F283A24008C3731 /* Products */,
+				3CDFF9687CFCB151265B8AF2 /* Pods */,
+				F367CE389631D480F047385A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +126,15 @@
 		91A5D29F1F283A24008C3731 /* afoi */ = {
 			isa = PBXGroup;
 			children = (
+				914FA27A1F3459AC00D00FBB /* doseData.swift */,
+				914FA2761F34521500D00FBB /* Templating.swift */,
 				91A5D2A01F283A24008C3731 /* AppDelegate.swift */,
 				91A5D2A21F283A24008C3731 /* ViewController.swift */,
 				91A5D2A41F283A24008C3731 /* Main.storyboard */,
 				91A5D2A71F283A24008C3731 /* Assets.xcassets */,
 				91A5D2A91F283A24008C3731 /* LaunchScreen.storyboard */,
 				91A5D2AC1F283A24008C3731 /* Info.plist */,
+				914FA27C1F35AFAE00D00FBB /* helpers.swift */,
 			);
 			path = afoi;
 			sourceTree = "<group>";
@@ -96,6 +148,15 @@
 			path = afoiTests;
 			sourceTree = "<group>";
 		};
+		F367CE389631D480F047385A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				058950EA71620797838C2838 /* Pods_afoi.framework */,
+				351B4F33A62BE56FA4EA4975 /* Pods_afoiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91A5D2BA1F283A24008C3731 /* Build configuration list for PBXNativeTarget "afoi" */;
 			buildPhases = (
+				7151095D0F73E77FF1057DCD /* [CP] Check Pods Manifest.lock */,
 				91A5D2991F283A24008C3731 /* Sources */,
 				91A5D29A1F283A24008C3731 /* Frameworks */,
 				91A5D29B1F283A24008C3731 /* Resources */,
+				D767B014C9059D8789997BB4 /* [CP] Embed Pods Frameworks */,
+				2C02A4258386CD2441BAFFE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91A5D2BD1F283A24008C3731 /* Build configuration list for PBXNativeTarget "afoiTests" */;
 			buildPhases = (
+				DABA65881BBBF3521C580EEA /* [CP] Check Pods Manifest.lock */,
 				91A5D2AD1F283A24008C3731 /* Sources */,
 				91A5D2AE1F283A24008C3731 /* Frameworks */,
 				91A5D2AF1F283A24008C3731 /* Resources */,
+				331E01C2F4F3A629BFE514DF /* [CP] Embed Pods Frameworks */,
+				2D5F6D6C7E56D39377EE2CAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,7 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914FA2721F344FD600D00FBB /* dosing.json in Resources */,
+				914FA2731F344FD600D00FBB /* topicalisation_template.html in Resources */,
+				91A5D2C21F28406F008C3731 /* Lato-Black.ttf in Resources */,
 				91A5D2AB1F283A24008C3731 /* LaunchScreen.storyboard in Resources */,
+				914FA2741F344FD600D00FBB /* topicalisation.css in Resources */,
 				91A5D2A81F283A24008C3731 /* Assets.xcassets in Resources */,
 				91A5D2A61F283A24008C3731 /* Main.storyboard in Resources */,
 			);
@@ -196,13 +267,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C02A4258386CD2441BAFFE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-afoi/Pods-afoi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5F6D6C7E56D39377EE2CAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-afoiTests/Pods-afoiTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		331E01C2F4F3A629BFE514DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-afoiTests/Pods-afoiTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7151095D0F73E77FF1057DCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D767B014C9059D8789997BB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-afoi/Pods-afoi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DABA65881BBBF3521C580EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		91A5D2991F283A24008C3731 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				91A5D2A31F283A24008C3731 /* ViewController.swift in Sources */,
+				914FA2771F34521500D00FBB /* Templating.swift in Sources */,
+				914FA27B1F3459AC00D00FBB /* doseData.swift in Sources */,
 				91A5D2A11F283A24008C3731 /* AppDelegate.swift in Sources */,
+				914FA27D1F35AFAE00D00FBB /* helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +508,7 @@
 		};
 		91A5D2BB1F283A24008C3731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE762063C4BA6B1BF269EF42 /* Pods-afoi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8T98YU77KQ;
@@ -354,6 +522,7 @@
 		};
 		91A5D2BC1F283A24008C3731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C1CC5AC685B02A2482460B9 /* Pods-afoi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8T98YU77KQ;
@@ -367,6 +536,7 @@
 		};
 		91A5D2BE1F283A24008C3731 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE2818A457DF098065C15210 /* Pods-afoiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +552,7 @@
 		};
 		91A5D2BF1F283A24008C3731 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD9AA6D5A33B16DDCDB73EF /* Pods-afoiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +585,7 @@
 				91A5D2BC1F283A24008C3731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91A5D2BD1F283A24008C3731 /* Build configuration list for PBXNativeTarget "afoiTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +594,7 @@
 				91A5D2BF1F283A24008C3731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

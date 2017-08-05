@@ -1,0 +1,48 @@
+body {
+	font-family:  sans-serif;
+	text-align: center;
+}
+
+h1 {
+	size:  18pt;
+	text-align: center;
+}
+
+h2 {
+	size:  16pt;
+	text-align: center;
+	color: #407467;
+}
+
+p {
+	size: 12pt;
+	text-align:  center;
+}
+
+.embolden {
+	font-weight: bold;
+}
+
+.caption {
+	font-size: small;
+}
+
+.bold_box {
+	font-weight:  bold;
+	font-size: small;
+	border: 1px solid green;
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+	text-align:  center;
+	margin-left:10%; 
+    margin-right:10%;	
+}
+
+td {
+	border: 1px solid #407467;
+	margin: 0px;
+	padding: 0px;
+}

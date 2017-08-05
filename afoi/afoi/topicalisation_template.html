@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="topicalisation.css" />
+</head>
+
+<body>
+  <h1>Weight range <span class="embolden">{{min_weight}}-{{max_weight}} kg </span> </h1>
+    <p>Give {{glyco_dose}} mcg {{#is_dose_range}} or 4mcg/kg (max 400 mcg) {{/is_dose_range}} IV Glycopyrrolate. </p>
+    <p class="caption">Ideally 30 minutes before procedure in a monitored area.</p>
+    <p class="caption" Use with caution or reduced doses in patients with cardiac conditions</p>
+        {{#is_neb}}
+        <h2>Nebuliser</h2>
+        <p>Nebulise {{neb_lig_dose}} mls of {{neb_lig_pct}}% lignocaine.</p>
+        <p class="caption">Time this to finish just prior to starting procedure.</p>
+        {{/is_neb}} {{#is_nose_prep}}
+        <h2>Nose preparation</h2>
+        <p>Spray {{co_phenyl_dose}} metered doses of Co-phenylcaine (5mg per spray) down the best nostril. Draw up {{nasal_lig}}mls of {{nasal_lig_pct}}% lignocaine and spray 0.5ml at a time via the nostril using a Mucosal Atomiser Device (MAD)</p>
+        <p class="caption">Advance slowly posteriorly and aim to get the atomiser all the way back to the nasopharynx. </p>
+        {{/is_nose_prep}} {{#is_op_preparation}}
+        <h2> Oral-pharynx preparation </h2>
+        <p>Draw up {{op_lig_dose}}ml of {{op_lig_pct}}% lignocaine and spray 0.5ml aliquots via the mouth using a Mucosal Atomiser Device (MAD).</p>
+        <p class="caption">Aim at the tonsillar pillars, then the posterior pharyngeal wall, the inferiorly towards the larynx</p>
+        {{/is_op_preparation}}
+        <h2>Spray as you go</h2>
+        <p>Lignocaine "spray-as-you-go" down the fibreoptic scope suction channel. </p>
+        <p class="caption">Used 3x5ml syringe with an air chaser, one for each spray</p>
+        <p>
+            <table>
+                <tr>
+                    <td>
+                        Epiglottis
+                    </td>
+                    <td>
+                        {{sayg_lig_epiglottis_dose}}ml
+                    </td>
+                    <td>
+                        {{sayg_lig_epiglottis_pct}}% lignocaine
+                    </td>
+                </tr>
+                <td>
+                    Left Cord
+                </td>
+                <td>
+                    {{sayg_lig_leftcord_dose}}ml
+                </td>
+                <td>
+                    {{sayg_lig_leftcord_pct}}% lignocaine
+                </td>
+                </tr>
+                <td>
+                    Right Cord
+                </td>
+                <td>
+                    {{sayg_lig_rightcord_dose}}ml
+                </td>
+                <td>
+                    {{sayg_lig_rightcord_pct}}% lignocaine
+                </td>
+                </tr>
+            </table>
+        </p>
+        <h2>Total dose of Lignocaine used was {{total_lig}} mg. </h2>
+        <p>There are many different ways to topicalise an airway for a{{#is_oral}}n{{/is_oral}} {{route}} AFOI and this is one sample spray as you go formulae which can be applied to the emergency situation with limited specialised equipment. The dosing regime may need to be modified according to the current medical condition and physical status of the patient.
+        </p>
+        <p class="bold_box">
+            All doses should be verified to be within your national and local guidelines, as well as hospital policy, and modified accordingly. The authors of this app take no responsibility for the actual dose administered. It is the responsibility of the individual clnician to select an appropriate dose and take patient individuality into consideration.
+        </p>
+</body>
